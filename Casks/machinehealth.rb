@@ -1,6 +1,6 @@
 cask "machinehealth" do
-  version "1.0.0"
-  sha256 "559e068800c8d1203a3b4d32e263ff6a0b4d7b0ea602fdcb7d94d11f56328d97"
+  version "1.0.1"
+  sha256 "ee9cd67d48a01e4e9f16d620d58218f3ec0e363ca44522d739133de3eb792fe6"
 
   url "https://github.com/amzar96/MachineHealth/releases/download/v#{version}/MachineHealth-#{version}.zip"
   name "MachineHealth"
