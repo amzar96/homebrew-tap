@@ -9,7 +9,7 @@ cask "machinehealth" do
 
   app "MachineHealth.app"
 
-  caveat <<~EOS
+  caveats <<~EOS
     MachineHealth is not notarized by Apple. If macOS blocks it on first launch, run:
       sudo xattr -dr com.apple.quarantine /Applications/MachineHealth.app
     Or reinstall with:
