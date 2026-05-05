@@ -10,9 +10,8 @@ cask "machinehealth" do
   app "MachineHealth.app"
 
   caveats <<~EOS
-    MachineHealth is not notarized by Apple. If macOS blocks it on first launch, run:
-      sudo xattr -dr com.apple.quarantine /Applications/MachineHealth.app
-    Or reinstall with:
-      brew install --cask --no-quarantine machinehealth
+    MachineHealth is not notarized by Apple. If macOS blocks it on first launch:
+      Option 1: System Settings → Privacy & Security → "Open Anyway"
+      Option 2: sudo xattr -dr com.apple.quarantine /Applications/MachineHealth.app
   EOS
 end
